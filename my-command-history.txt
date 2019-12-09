@@ -1,0 +1,237 @@
+    1  mkdir CIT173_Lab4
+    2  ls /dev
+    3  ls /dev > ~/CIT173_Lab4/my-dev-nodes.txt
+    4  cat ~/CIT173_Lab4/my-dev-nodes.txt > /dev/full
+    5  head /dev/random
+    6  head /dev/random > ~/CIT173_Lab4/my-random-data.txt
+    7  cat ~/CIT173_Lab4/my-random-data.txt 
+    8  ls mods
+    9  lsmod
+   10  lsmod > ~/CIT173_Lab4/my-modules-1.txt
+   11  modinfo nfs
+   12  modinfo nfs > ~/CIT173_Lab4/my-nfs-info.txt
+   13  modprobe nfs
+   14  sudo modprobe nfs
+   15  modinfo nfs > ~/CIT173_Lab4/my-modules-2
+   16  sudo rmmod nfs > ~/CIT173_Lab4/my-modules-3
+   17  ls dir
+   18  lsdir
+   19  cd
+   20  ls
+   21  cat CIT173_Lab4/
+   22  cat ~/CIT173_Lab4/my-modules-1
+   23  cat ~/CIT173_Lab4/my-modules-1.txt
+   24  cat ~/CIT173_Lab4/my-modules-2.txt
+   25  modinfo nfs > ~/CIT173_Lab4/my-modules-2.txt
+   26  sudo rmmod nfs > ~/CIT173_Lab4/my-modules-3.txt
+   27  rm ~/CIT173_Lab4/my-modules-2.txt 
+   28  modprobe nfs > ~/CIT173_Lab4/my-modules-2.txt
+   29  sudo modprobe nfs > ~/CIT173_Lab4/my-modules-2.txt
+   30  sudo rmmod nfs > ~/CIT173_Lab4/my-modules-3.txt
+   31  #parted
+   32  # parted
+   33  parted
+   34  sudo parted
+   35  sudo fdisk m
+   36  sudo fdisk n
+   37  sudo # fdisk /dev/sdb
+   38  # fdisk /dev/sdb
+   39  n
+   40  # fdisk /dev/sdb n
+   41  sudo fdisk /dev/sdb
+   42  /dev
+   43  ls /dev
+   44  ls /dev/sbd
+   45  sudo mkfs.ext4 /dev/sdb
+   46  e2label /dev/sdb data
+   47  sudo e2label /dev/sdb data
+   48  sudo e4label /dev/sdb data
+   49  /dev/sdb
+   50  sudo /dev/sdb
+   51  sudo fdisk -l
+   52  sudo sfdisk -l /dev/sdb
+   53  sudo sfdisk -1/dev/sdb
+   54  lsblk
+   55  # fdisk /dev/sdb
+   56  sudo # fdisk /dev/sdb
+   57  sudo fdisk /dev/sdb
+   58  fdisk -s /dev/sdb
+   59  sudo fdisk -s /dev/sdb
+   60  history
+   61  sudo fdisk /dev/sdb
+   62  sudo mkfs.ext4 /dev/sdb
+   63  cat /dev/sdb
+   64  sudo cat /dev/sdb
+   65  df
+   66  ls dev/sdb
+   67  man dev
+   68  man /dev
+   69  cat fdisk
+   70  ls fdisk
+   71  ls dir
+   72  ls
+   73  ls CIT173_Lab4
+   74  ls -l /dev
+   75  ls -l /dev/sdb
+   76  lsblk
+   77  sudo fdisk -l
+   78  history
+   79  sudo fdisk
+   80  sudo fdisk /dev/sdb
+   81  cd
+   82  cd /dev
+   83  ls
+   84  q
+   85  cd
+   86  sudo fdisk /dev/sdb
+   87  cd /dev
+   88  ls
+   89  ls > ~/CIT173_Lab4/my-new-dev-nodes.txt
+   90  history
+   91  cd
+   92  sudo mkfs.ext4 /dev/sdb1
+   93  sudo mkfs.ext4 /dev/sdb2
+   94  mkdir /mnt/data
+   95  sudo mkdir /mnt/data
+   96  sudo mkdir /mnt/backup
+   97  sudo mount /dev/sdb1 /mnt/data
+   98  sudo mount /dev/sdb2 /mnt/backup
+   99  mount
+  100  mount > ~/CIT173_Lab4/my-mounts.txt
+  101  df
+  102  df > ~/CIT173_Lab4/my-disk-usage.txt
+  103  sudo umount /dev/sdb1 
+  104  sudo umount /dev/sdb2
+  105  sudo dd if=/dev/sdb of=~/CIT_Lab4/gpt.bin bs=512 count=34
+  106  sudo dd if=/dev/sdb of=~/CIT173_Lab4/gpt.bin bs=512 count=34
+  107  cd ~/CIT173_Lab4
+  108  git init
+  109  git remote add origin https://github.com/hartjasone/CIT173_Lab4.git
+  110  git add --all
+  111  git commit -m "Lab assignment 4"
+  112  git push origin master
+  113  history
+  114  mkdir ~/CIT173_Lab5
+  115  sudo mount /dev/sdb1 /mnt/data
+  116  sudo mount /dev/sdb2 /mnt/backup
+  117  cd ~/CIT173_Lab5
+  118  ls mount
+  119  mount
+  120  sudo nano /etc/fstab 
+  121  sudo chown hartjasone:hartjasone /mnt/data
+  122  sudo chown hartjasone:hartjasone /mnt/backup
+  123  blkid
+  124  ls blk
+  125  sudo blkid
+  126  history
+  127  ls mount
+  128  mount
+  129  sudo mount ls
+  130  cd
+  131  sudo mount ls
+  132  cd /mnt
+  133  ls
+  134  ls backup/
+  135  cd ..
+  136  cd /dev
+  137  ls
+  138  mount
+  139  sudo mount /dev/sdb1 /mnt/data
+  140  sudo mount /dev/sdb2 /mnt/backup
+  141  mont
+  142  mount
+  143  history
+  144  sudo nano /etc/fstab
+  145  mount
+  146  sudo blkid
+  147  cd /dev
+  148  mount
+  149  cd
+  150  sudo nano /etc/fstab
+  151  sudo mount -a
+  152  sudo nano /etc/fstab
+  153  sudo mount -a
+  154  sudo nano /etc/fstab
+  155  sudo mount -a
+  156  sudo nano /etc/fstab
+  157  sudo mount -a
+  158  history
+  159  dd
+  160  /dev/random
+  161  sudo /dev/random
+  162  sudo dd /dev/random
+  163  dd --help
+  164  cd /dev/random
+  165  /proc/mounts
+  166  sudo /proc/mounts
+  167  cd /dev
+  168  ls
+  169  /random
+  170  /cd
+  171  cd
+  172  sudo dd if=/dev/random of=data_file1.dat bs=1024 count=1024
+  173  sudo dd if=/dev/random of=data_file1.dat bs=1024 count=1
+  174  sudo dd if=/dev/random of=data_file2.dat bs=1024 count=1
+  175  sudo dd if=/dev/random of=backup_file1.dat bs=1024 count=1
+  176  sudo dd if=/dev/random of=backup_file2.dat bs=1024 count=1
+  177  sudo cp dd if=/dev/random of=data_file1.dat bs=1024 count=1
+  178  sudo cp dd if=/dev/random of=data_file1.dat bs=1024 count=1 > ~/CIT173_Lab5
+  179  cd ~/CIT173_Lab5
+  180  ls
+  181  sudo cp data_file.1 > ~/CIT173_Lab5
+  182  cd
+  183  sudo cp data_file.1 > ~/CIT173_Lab5
+  184  findmnt -D
+  185  ls
+  186  sudo cp data_file1.dat ~/CIT173_Lab5
+  187  sudo cp data_file2.dat ~/CIT173_Lab5
+  188  sudo cp backup_file1.dat ~/CIT173_Lab5
+  189  sudo cp backup_file2.dat ~/CIT173_Lab5
+  190  ls
+  191  cd ~/CIT173_Lab5
+  192  ls
+  193  df
+  194  df > ~/CIT173_Lab5/my-disk-usage.txt
+  195  cd
+  196  sudo /proc/version
+  197  man ps
+  198  ps -e
+  199  ls /procfs
+  200  ls /proc/filesystems
+  201  ls procfs
+  202  ps
+  203  u name -r
+  204  uname -r
+  205  cat /proc/version
+  206  cat /proc/cpuinfo
+  207  cat proc/meminfo
+  208  cat /proc/meminfo
+  209  cat /proc/bash/maps
+  210  ulimit -a
+  211  uptime
+  212  pidstat -w 10 1
+  213  uptime
+  214  cat /sys/class/graphics/fb0/virtual_size
+  215  cat fb
+  216  man fb
+  217  man fb0
+  218  cat fb_info
+  219  fbset
+  220  cat fbset
+  221  -fb -h
+  222  cat /dev/fb0
+  223  sudo cat /dev/fb0
+  224  man fbset
+  225  cd /proc
+  226  ls
+  227  cat fb
+  228  cd
+  229  echo 1 |sudo tee '/sys/class/leds/input5::capslock/brightness'
+  230  cd sys/log
+  231  ls /sys/class/leds
+  232  echo 1 |sudo tee '/sys/class/leds/input1::capslock/brightness'
+  233  echo 0 |sudo tee '/sys/class/leds/input1::capslock/brightness'
+  234  echo 1 |sudo tee '/sys/class/leds/input1::capslock/brightness' > ~/CIT173_Lab5/turn-on-capslock-led.txt
+  235  echo 0 |sudo tee '/sys/class/leds/input1::capslock/brightness' > ~/CIT173_Lab5/turn-on-capslock-led.txt
+  236  history > ~/CIT173-Lab5/my-command-history.txt
+  237  history > ~/CIT173_Lab5/my-command-history.txt
